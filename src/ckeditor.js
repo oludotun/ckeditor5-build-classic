@@ -30,6 +30,12 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Subscript from '@ckeditor/ckeditor5-basic-styles/src/subscript';
 import Superscript from '@ckeditor/ckeditor5-basic-styles/src/superscript';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
+import MathType from '@wiris/mathtype-ckeditor5';
+import SpecialCharacters from '@ckeditor/ckeditor5-special-characters/src/specialcharacters';
+import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/src/specialcharactersessentials';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -58,7 +64,13 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	Subscript,
-	Superscript
+	Superscript,
+	Underline,
+	Strikethrough,
+	Code,
+	MathType,
+	SpecialCharacters,
+	SpecialCharactersEssentials
 ];
 
 // Editor configuration.
