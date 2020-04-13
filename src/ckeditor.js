@@ -93,7 +93,8 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'PasteFromOffice'
 		]
 	},
 	image: {
